@@ -42,7 +42,6 @@ const CheckboxWrapper = styled.div`
 `;
 
 const Filters = ({ onApplyFilters, showModal }) => {
-  // console.log(showModal, "FILTER SHOW MODAL", onApplyFilters);
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
   const [numGuests, setNumGuests] = useState("");
