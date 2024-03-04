@@ -170,8 +170,6 @@ const Filters = ({ onApplyFilters, showModal }) => {
           />
           <label htmlFor="tv">TV</label>
         </CheckboxWrapper>
-
-        {/* Add more checkboxes for amenities here */}
       </RowWrapper>
 
       <Button onClick={handleApplyFilters}>Apply Filters</Button>
